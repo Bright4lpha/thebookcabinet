@@ -1,0 +1,14 @@
+{
+    "name": "tbc-back",
+    "version": "1.0.0",
+    "description": "Backen of my app The Book Cabinet",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Mathilde Henrion",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.1.0"
+    }
+}
