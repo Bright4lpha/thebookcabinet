@@ -10,7 +10,7 @@ const uri =
     "@" +
     process.env.DB_CLUSTER +
     ".mongodb.net/" +
-    process.env.DB_NAMES +
+    process.env.DB_NAME +
     "?retryWrites=true&w=majority";
 
 const connectDB = async () => {
